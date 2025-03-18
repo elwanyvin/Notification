@@ -16,6 +16,7 @@ Defensive programming principles applied, ensuring robust parameter validation.
 
 Supports dynamic modification of communication strategies at runtime.
 
+
 Architecture
 
 The system is composed of multiple classes organized within two packages:
@@ -40,9 +41,11 @@ ComNetAdapter: Adapts an external ComNet class to integrate CHAT messaging.
 
 CommunicationAccess: Ensures a single instance per communication mode for efficiency.
 
+
 utilitaire package
 
 ComNet: External class offering CHAT message functionality.
+
 
 Usage
 
@@ -77,21 +80,7 @@ The isCorrect(String address) method in CommunicationStrategy validates addresse
 
 The system follows the Factory Design Pattern for creating communication strategy instances.
 
-How to Run
 
-Compile all Java files.
-
-Execute TestServer.java.
-
-Observe the output demonstrating successful subscription, alert sending, and user management.
-
-Deliverables
-
-Java source files (.java)
-
-Javadoc documentation (.doc)
-
-Archive submission in TPX-Nom-Prenom-Groupe.zip format on Moodle.
 
 This final version of the Alert Notification Service is optimized for maintainability, extensibility, and efficiency.
 
